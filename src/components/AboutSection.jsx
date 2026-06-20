@@ -57,7 +57,7 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Frontend Development</h4>
-                                <p className="text-muted-foreground">Building responsive and interactive user interfaces using HTML, CSS, JavaScript, React.js, and Tailwind CSS.</p>
+                                <p className="text-muted-foreground">Building responsive and interactive user interfaces using HTML, CSS, JavaScript and React.js.</p>
                             </div>
                         </div>
                     </div>

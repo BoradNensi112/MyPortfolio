@@ -1,37 +1,33 @@
-import { useState } from "react"
+import { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills =[
     //frontend
-    {name:"HTML/CSS", level:95 , category:"frontend"},
-    {name:"JavaScript", level:80 , category:"frontend"},
-    {name:"React", level:75 , category:"frontend"},
-    {name:"TypeScript", level: 50, category:"frontend"},
-    {name:"TailWind CSS", level:50 , category:"frontend"},
-    {name:"Next.js", level:25 , category:"frontend"},
-
+    {name:"HTML/CSS", level:85 , category:"frontend"},
+    {name:"CSS", level:80 , category:"frontend"},
+    {name:"JavaScript", level:75 , category:"frontend"},
+    {name:"React", level:65 , category:"frontend"},
 
     //backend
-     {name:"Node.js", level:80 , category:"backend"},
+     {name:"Node.js", level:75 , category:"backend"},
      {name:"Express", level:75 , category:"backend"},
-     {name:"MongoDB", level:95 , category:"backend"},
-     {name:"PostgresSQL", level:90 , category:"backend"},
-     {name:"Next.js", level:25 , category:"backend"},
+     {name:"MongoDB", level:70 , category:"backend"},
+     {name:"SQL/PostgresSQL", level:70 , category:"backend"},
 
 
      //tools
 
     {name:"Git/GitHub", level:50 , category:"tools"},
-    {name:"VS Code", level:95 , category:"tools"},
-    {name:"Figma", level:50 , category:"tools"},
-    {name:"Docker", level:50 , category:"tools"},
+    {name:"VS Code", level:80 , category:"tools"},
+    {name:"MongoDB (Compass, Atlas)", level:50 , category:"tools"},
+    {name:"Postman", level:75 , category:"tools"},
+    {name:"pgAdmin", level:70 , category:"tools"},
 
 ];
 
+
+
 const categories = ["all" , "frontend" , "backend" , "tools"]
-
-
-
 
 export const SkillsSection = ()=>{
 

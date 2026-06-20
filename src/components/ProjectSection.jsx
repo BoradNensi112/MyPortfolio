@@ -16,20 +16,20 @@ const projects = [
         id: 2,
         title: "Hitachi Solar Project",
         description: "A responsive solar energy management website developed to showcase Hitachi Solar's products, services, and sustainable energy solutions.",
-        img: "/projects/faculty.png",
+        img: "/projects/solarHitachi.png",
         tags: ["Node", "Express", "PostgreSQL"],
         demoUrl: "#",
-        gitHubUrl: "#"
+        gitHubUrl: "https://github.com/BoradNensi112/Solar-Hitachi.git"
     },
 
     {
-        id: 2,
-        title: "Hitachi Solar Project",
-        description: "A responsive solar energy management website developed to showcase Hitachi Solar's products, services, and sustainable energy solutions..",
-        img: "/projects/attendence.png",
+        id: 3,
+        title: "Portfolio Project",
+        description: "A responsive personal portfolio website developed to showcase my skills, projects, and experience as a web developer.",
+        img: "/projects/portfolio.png",
         tags: ["Node", "Express", "PostgreSQL"],
-        demoUrl: "#",
-        gitHubUrl: "#"
+        demoUrl: "https://6a323f6ee1da070008fae768--profound-boba-7c53fa.netlify.app/",
+        gitHubUrl: "https://github.com/BoradNensi112/MyPortfolio.git"
     },
 
 
@@ -72,12 +72,14 @@ export const ProjectSection = () => {
                                     <a href={project.demoUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover-text-primary transition-colors duration-300">
-                                        <ExternalLink size={20} />
+                                        demoUrl
+                                        <ExternalLink size={20} /> 
                                     </a>
 
                                     <a href={project.gitHubUrl}
                                         target="_blank"
                                         className="text-foreground/80 hover-text-primary transition-colors duration-300">
+                                        github
                                         <ExternalLink size={20} />
 
                                     </a>
@@ -92,9 +94,9 @@ export const ProjectSection = () => {
             </div>
 
             <div className="text-center mt-12">
-                <a className="cosmic-button w-fit flex items-center mx-auto gap-2" 
-                target="_blank"
-                href="https://github.com/BoradNensi112">Check My Github <ArrowRight size={16}/></a>
+                <a className="cosmic-button w-fit flex items-center mx-auto gap-2"
+                    target="_blank"
+                    href="https://github.com/BoradNensi112">Check My Github <ArrowRight size={16} /></a>
             </div>
 
         </div>

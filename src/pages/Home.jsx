@@ -7,6 +7,8 @@ import { AboutSection } from '../components/AboutSection'
 import { SkillsSection } from '../components/SkillsSection'
 import { ProjectSection } from '../components/ProjectSection'
 import { ContectSection } from '../components/ContantSection'
+import Certificate from '../components/Certificate'
+import Education from '../components/Education'
 
 const Home = () => {
   return (
@@ -32,6 +34,8 @@ const Home = () => {
         <AboutSection  />
         <SkillsSection/>
         <ProjectSection/>
+        <Certificate/>
+        <Education/>
         <ContectSection/>
       </main>
 
