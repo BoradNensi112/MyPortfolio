@@ -5,10 +5,10 @@ const projects = [
         id: 1,
         title: "College Management Project",
         description: "A full-stack MERN application for managing students, faculty, courses, timetables, results, and communication within a college.",
-        img: "/projects/home.png",
+        img: "/projects/collageManagement.png",
         tags: ["React", "Node", "Express", "CSS"],
         demoUrl: "#",
-        gitHubUrl: "#"
+        gitHubUrl: "https://github.com/BoradNensi112/collegeSystem.git"
     },
 
 
