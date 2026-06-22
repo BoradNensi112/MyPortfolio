@@ -6,7 +6,7 @@ const projects = [
         title: "College Management Project",
         description: "A full-stack MERN application for managing students, faculty, courses, timetables, results, and communication within a college.",
         img: "/projects/collageManagement.png",
-        tags: ["React", "Node", "Express", "CSS"],
+        tags: ["ReactJS", "NodeJS", "Express", "CSS"],
         demoUrl: "#",
         gitHubUrl: "https://github.com/BoradNensi112/collegeSystem.git"
     },
@@ -15,9 +15,9 @@ const projects = [
     {
         id: 2,
         title: "Hitachi Solar Project",
-        description: "A responsive solar energy management website developed to showcase Hitachi Solar's products, services, and sustainable energy solutions.",
+        description: "Built the backend of a solar energy management system using Node.js, Express.js, PostgreSQL, and Sequelize, focusing on API development, database management, and server-side operations.",
         img: "/projects/solarHitachi.png",
-        tags: ["Node", "Express", "PostgreSQL"],
+        tags: ["NodeJS", "Express", "PostgreSQL"],
         demoUrl: "#",
         gitHubUrl: "https://github.com/BoradNensi112/Solar-Hitachi.git"
     },
@@ -27,7 +27,7 @@ const projects = [
         title: "Portfolio Project",
         description: "A responsive personal portfolio website developed to showcase my skills, projects, and experience as a web developer.",
         img: "/projects/portfolio.png",
-        tags: ["Node", "Express", "PostgreSQL"],
+        tags: ["NodeJS", "Express", "PostgreSQL"],
         demoUrl: "https://6a323f6ee1da070008fae768--profound-boba-7c53fa.netlify.app/",
         gitHubUrl: "https://github.com/BoradNensi112/MyPortfolio.git"
     },
